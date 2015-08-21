@@ -1,0 +1,38 @@
+{
+  "name": "chk-dependencies",
+  "version": "1.0.0",
+  "description": "Check which dependencies are installed and which are not from the one specified in package.json",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": "beatfreaker/chk-dependencies",
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/)"
+  },
+  "bin": {
+    "chk-dependencies": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "check",
+    "dependencies",
+    "shortcut",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/beatfreaker/chk-dependencies/issues"
+  },
+  "homepage": "https://github.com/beatfreaker/chk-dependencies#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cli-table": "^0.3.1",
+    "fs": "0.0.2",
+    "q": "^1.4.1"
+  }
+}
